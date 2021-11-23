@@ -21,7 +21,7 @@ body{
 
 }
 
-nav {
+.menu nav {
 	margin: 27px auto 0;
 	top: 0;
 	position: fixed;
@@ -33,7 +33,7 @@ nav {
 
 	z-index: 9999999;
 }
-nav a {
+.menu nav a {
 	line-height: 50px;
 	height: 100%;
 	font-size: 15px;
@@ -46,7 +46,7 @@ nav a {
 	color: white;
 	cursor: pointer;
 }
-nav .animation {
+.menu nav .animation {
 	position: absolute;
 	height: 100%;
 	top: 0;
@@ -54,56 +54,56 @@ nav .animation {
 	transition: all .5s ease 0s;
 	border-radius: 8px;
 }
-a:nth-child(1) {
+.menu a:nth-child(1) {
 	width: 100px;
 }
-a:nth-child(2) {
+.menu a:nth-child(2) {
 	width: 110px;
 }
-a:nth-child(3) {
+.menu a:nth-child(3) {
 	width: 100px;
 }
-a:nth-child(4) {
+.menu a:nth-child(4) {
 	width: 160px;
 }
-a:nth-child(5) {
+.menu a:nth-child(5) {
 	width: 120px;
 }
-a:nth-child(6) {
+.menu a:nth-child(6) {
 	width: 120px;
 }
-nav .start-home, a:nth-child(1):hover~.animation {
+.menu nav .start-home, a:nth-child(1):hover~.animation {
 	width: 100px;
 	left: 0;
 	/* background-color: #1abc9c; */
 	background:linear-gradient(to bottom, #6503b5 0%, #1abc9c 100%) ;
 }
-nav .start-about, a:nth-child(2):hover~.animation {
+.menu nav .start-about, a:nth-child(2):hover~.animation {
 	width: 100px;
 	left: 102px;
 	/* background-color: #e74c3c; */
 	background:linear-gradient(to bottom, #e74c3c 0%, #b4bc1a 100%) ;
 }
-nav .start-site, a:nth-child(3):hover~.animation {
+.menu nav .start-site, a:nth-child(3):hover~.animation {
 	width: 120px;
 	left: 200px;
 	/* background-color: #3498db; */
 	background:linear-gradient(to bottom, #056610 0%, #15d12b 100%) ;
 }
-nav .start-marketing, a:nth-child(4):hover~.animation {
+.menu nav .start-marketing, a:nth-child(4):hover~.animation {
 	width: 120px;
 	left: 330px;
 	/* background-color: #9b59b6; */
 	background:linear-gradient(to bottom, #690772 0%, #db0be6 100%) ;
 	
 }
-nav .start-portifolio, a:nth-child(5):hover~.animation {
+.menu nav .start-portifolio, a:nth-child(5):hover~.animation {
 	width: 120px;
 	left: 470px;
 	/* background-color: #e67e22; */
 	background:linear-gradient(to bottom, #707208 0%, #c6fc05 100%) ;
 }
-nav .start-contact, a:nth-child(6):hover~.animation {
+.menu nav .start-contact, a:nth-child(6):hover~.animation {
 	width: 120px;
 	left: 590px;
 	/* background-color: #e67e22; */
