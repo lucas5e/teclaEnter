@@ -1,0 +1,262 @@
+/* global------------------------------------------------------------------- */
+html {
+    color: white;
+    font-size: 14px;
+    line-height:1.4;
+  }
+
+*,*:before,*:after {
+	box-sizing: border-box;
+}
+
+:after {
+	content: "";
+}
+
+/* banner--------------------------------------------------------------------- */
+.banner {
+    position: relative;
+	background: url(../img/pexels-tom-swinnen-1309766.jpg) center center no-repeat; background-size: cover;
+    width: 100%;
+    height: 700px;
+  
+   padding: 200px;
+
+}
+
+.banner .banner-content{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.banner .banner-content .banner-content-left .banner-title{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.banner .banner-content .banner-content-left .banner-title img {
+    height: 100px;
+}
+
+.banner .banner-content .banner-content-left .banner-title h1 { 
+    margin: 0 10px;
+    font-size: 52px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px #800780,
+        2px 2px 0px #50056a,
+        3px 3px 0px #450783,
+        4px 4px 0px #050005;
+}
+
+.banner .banner-content .banner-content-left .banner-title h2 {
+	font-size: 24px;
+}
+
+
+
+.banner .banner-animation{
+	display: grid;
+	height: 100%;
+	width: 100%;
+
+	place-items: center;
+
+	animation: image 0.7s  ease alternate infinite;
+}
+
+@keyframes image {
+	to {
+		transform: 
+		translateY(30px);
+	}
+}
+
+.banner .banner-animation .fa-angle-double-down{
+	font-size: 50px;
+}
+
+/* about--------------------------------------------------------------------------------- */
+.about{
+    padding:200px ;
+	background-color: black;
+}
+
+.about .about-main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+	align-items: center;
+}
+
+.about .about-main .about-main-left{
+    margin: 0 20px;
+}
+
+.about .about-main .about-main-left h1 {
+    margin: 10px 0;
+	font-size: 52px;
+	text-transform: uppercase;
+
+}
+
+.about .about-main .about-main-left h3 {
+	font-weight: 300;
+}
+
+.about .about-main .about-main-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about .about-main .about-main-right img{
+    height: 280px;
+}
+
+/* dev---------------------------------------------------------------------- */
+.dev{
+	padding: 200px;
+	background:linear-gradient(to bottom, #6503b5 0%, #000000 100%) ;
+	color: white;
+}
+
+.dev .dev-title {
+	margin-bottom:50px ;
+}
+
+.dev .dev-title h1 {
+	font-size: 52px;
+	text-transform: uppercase;
+}
+
+.dev .dev-title h3 {
+	font-weight: 300;
+}
+
+
+.dev .dev-content{
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	gap: 20px;
+}
+
+.dev .dev-content .dev-content-image {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.dev .dev-content .dev-content-image img {
+	height: 500px;
+}
+
+.dev .dev-content .dev-content-ingredient{
+	display: grid;
+	gap: 15px;
+
+}
+
+
+.dev .dev-content .dev-content-ingredient .dev-content-ingredient-item  {
+	background-color: white;
+	color: black;
+	padding: 0 20px;
+	box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.645);
+
+	font-size: 12px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+
+}
+
+.dev .dev-content .dev-content-ingredient .dev-content-ingredient-item.domain {
+	border-left: 5px solid green;
+
+}
+
+.dev .dev-content .dev-content-ingredient .dev-content-ingredient-item .fa-registered{
+	color: green;
+	margin: 0 20px;
+	font-size: 35px;
+}
+
+.dev .dev-content .dev-content-ingredient .dev-content-ingredient-item.server {
+	border-left: 5px solid rgb(70, 70, 202);
+
+}
+
+.dev .dev-content .dev-content-ingredient .dev-content-ingredient-item .fa-server{
+	color: rgb(70, 70, 202);
+	margin: 0  20px;
+	font-size: 35px;
+}
+
+.dev .dev-content .dev-content-ingredient .dev-content-ingredient-item.visual {
+	border-left: 5px solid rgb(228, 8, 221);
+
+}
+
+.dev .dev-content .dev-content-ingredient .dev-content-ingredient-item .fa-fingerprint{
+	color: rgb(228, 8, 221);
+	margin: 0 20px;
+	font-size: 35px;
+}
+
+.dev .dev-content .dev-content-ingredient .dev-content-ingredient-item.text {
+	border-left: 5px solid rgb(204, 214, 9);
+
+}
+
+.dev .dev-content .dev-content-ingredient .dev-content-ingredient-item .fa-text{
+	color: rgb(204, 214, 9);
+	margin: 0 20px;
+	font-size: 35px;
+}
+
+.dev .dev-content .dev-content-ingredient .dev-content-ingredient-item h2 {
+	padding: 2px 0;
+}
+
+
+.dev .dev-bottom {
+	margin: 50px 0;
+}
+
+.dev .dev-bottom .dev-bottom-btn{
+	display: flex;
+	align-items: center;
+	justify-content: right;
+}
+
+.dev .dev-bottom .dev-bottom-btn a {
+	display: block;
+	width: 200px;
+
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+
+	color: white;
+
+
+	margin: 20px 0;
+	padding: 20px;
+	
+	background:black;
+}
+
+/* mkt--------------------------------------------------------------------- */
+.mkt{
+	padding: 200px;
+	background-color: rgb(0, 0, 0);
+}
+
+
+
+
+
