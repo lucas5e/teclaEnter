@@ -84,6 +84,7 @@ html {
 	background-color: black;
 }
 
+
 .about .about-main {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -118,7 +119,7 @@ html {
 /* dev---------------------------------------------------------------------- */
 .dev{
 	padding: 200px;
-	background:linear-gradient(to bottom, #6503b5 0%, #000000 100%) ;
+	background:linear-gradient(to bottom, #000000a6 0%,#6503b565  100%) ;
 	color: white;
 }
 
@@ -250,13 +251,76 @@ html {
 	background:black;
 }
 
+/* video------------------------------------------------------------------- */
+Video {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	max-width: 100%; 
+	z-index: -5;
+  }
+
 /* mkt--------------------------------------------------------------------- */
 .mkt{
 	padding: 200px;
-	background-color: rgb(0, 0, 0);
+	background:linear-gradient(to bottom, #6503b5 0%, #b1027f 100%) ;
+	
 }
 
 
 
+.mkt .mkt-content .mkt-content-title {
+	padding-bottom: 100px;
+}
+
+.mkt .mkt-content .mkt-content-title h1{
+	font-size: 52px;
+	text-transform: uppercase;
+}
+
+.mkt .mkt-content .mkt-content-title h3{
+	font-weight: 3;
+}
+
+.mkt .mkt-content .mkt-content-services{
+	display: grid;
+}
+
+.mkt .mkt-content .mkt-content-services .mkt-content-services-item{ 
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 50px 0;
+}
+
+.mkt .mkt-content .mkt-content-services .mkt-content-services-item div h2 {
+	font-size: 26px;
+	padding:20px 0;
+	
+}
+
+.mkt .mkt-content .mkt-content-services .mkt-content-services-item img {
+	height: 200px;
+	
+}
+
+
+.mkt .mkt-content .mkt-content-services .mkt-content-services-item .midia {
+	margin-right: 50px;
+
+}
+
+
+.mkt .mkt-content .mkt-content-services .mkt-content-services-item .ads {
+	margin-left: 50px;
+	
+}
+
+
+
+
+.mkt .mkt-content .mkt-content-services .mkt-content-services-item h2 {
+	font-size: 16px;
+}
 
 
