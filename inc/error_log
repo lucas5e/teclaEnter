@@ -1,0 +1,67 @@
+[26-Oct-2021 15:03:00 America/Fortaleza] PHP Warning:  require(/lib/vendor/autoload.php): failed to open stream: No such file or directory in /home1/socie783/public_html/inc/send-online.php on line 14
+[26-Oct-2021 15:03:00 America/Fortaleza] PHP Warning:  require(/lib/vendor/autoload.php): failed to open stream: No such file or directory in /home1/socie783/public_html/inc/send-online.php on line 14
+[26-Oct-2021 15:03:00 America/Fortaleza] PHP Fatal error:  require(): Failed opening required '/lib/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/socie783/public_html/inc/send-online.php on line 14
+[26-Oct-2021 15:07:09 America/Fortaleza] PHP Warning:  require(/lib/vendor/autoload.php): failed to open stream: No such file or directory in /home1/socie783/public_html/inc/send-online.php on line 14
+[26-Oct-2021 15:07:09 America/Fortaleza] PHP Warning:  require(/lib/vendor/autoload.php): failed to open stream: No such file or directory in /home1/socie783/public_html/inc/send-online.php on line 14
+[26-Oct-2021 15:07:09 America/Fortaleza] PHP Fatal error:  require(): Failed opening required '/lib/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/socie783/public_html/inc/send-online.php on line 14
+[26-Oct-2021 15:08:51 America/Fortaleza] PHP Warning:  require(/lib/vendor/autoload.php): failed to open stream: No such file or directory in /home1/socie783/public_html/inc/send-online.php on line 14
+[26-Oct-2021 15:08:51 America/Fortaleza] PHP Warning:  require(/lib/vendor/autoload.php): failed to open stream: No such file or directory in /home1/socie783/public_html/inc/send-online.php on line 14
+[26-Oct-2021 15:08:51 America/Fortaleza] PHP Fatal error:  require(): Failed opening required '/lib/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/socie783/public_html/inc/send-online.php on line 14
+[26-Oct-2021 15:18:31 America/Fortaleza] PHP Parse error:  syntax error, unexpected '$nome' (T_VARIABLE) in /home1/socie783/public_html/inc/send-online.php on line 49
+[26-Oct-2021 15:19:03 America/Fortaleza] PHP Parse error:  syntax error, unexpected '<' in /home1/socie783/public_html/inc/send-online.php on line 49
+[26-Oct-2021 15:19:55 America/Fortaleza] PHP Parse error:  syntax error, unexpected '"Email: "' (T_CONSTANT_ENCAPSED_STRING) in /home1/socie783/public_html/inc/send-online.php on line 50
+[26-Oct-2021 15:20:55 America/Fortaleza] PHP Parse error:  syntax error, unexpected '"Email: "' (T_CONSTANT_ENCAPSED_STRING) in /home1/socie783/public_html/inc/send-online.php on line 50
+[26-Oct-2021 15:21:27 America/Fortaleza] PHP Parse error:  syntax error, unexpected '"Email: "' (T_CONSTANT_ENCAPSED_STRING) in /home1/socie783/public_html/inc/send-online.php on line 50
+[26-Oct-2021 15:33:27 America/Fortaleza] PHP Parse error:  syntax error, unexpected '"<strong>E-mail: </strong> "' (T_CONSTANT_ENCAPSED_STRING) in /home1/socie783/public_html/inc/send-online.php on line 62
+[26-Oct-2021 15:50:06 America/Fortaleza] PHP Parse error:  syntax error, unexpected '/' in /home1/socie783/public_html/inc/send-online.php on line 58
+[26-Oct-2021 16:00:59 America/Fortaleza] PHP Parse error:  syntax error, unexpected '$mail' (T_VARIABLE) in /home1/socie783/public_html/inc/send-online.php on line 79
+[26-Oct-2021 16:05:49 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 10
+[26-Oct-2021 16:05:49 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 11
+[26-Oct-2021 16:05:49 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 12
+[26-Oct-2021 16:05:49 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 14
+[26-Oct-2021 16:05:49 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 15
+[26-Oct-2021 16:05:49 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 16
+[26-Oct-2021 16:05:49 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 17
+[26-Oct-2021 16:05:49 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 19
+[26-Oct-2021 16:05:49 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 20
+[26-Oct-2021 16:05:49 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 22
+[26-Oct-2021 16:07:17 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 10
+[26-Oct-2021 16:07:17 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 11
+[26-Oct-2021 16:07:17 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 12
+[26-Oct-2021 16:07:17 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 14
+[26-Oct-2021 16:07:17 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 15
+[26-Oct-2021 16:07:17 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 16
+[26-Oct-2021 16:07:17 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 17
+[26-Oct-2021 16:07:17 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 19
+[26-Oct-2021 16:07:17 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 20
+[26-Oct-2021 16:07:17 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 22
+[26-Oct-2021 16:08:10 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 10
+[26-Oct-2021 16:08:10 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 11
+[26-Oct-2021 16:08:10 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 12
+[26-Oct-2021 16:08:10 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 14
+[26-Oct-2021 16:08:10 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 15
+[26-Oct-2021 16:08:10 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 16
+[26-Oct-2021 16:08:10 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 17
+[26-Oct-2021 16:08:10 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 19
+[26-Oct-2021 16:08:10 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 20
+[26-Oct-2021 16:08:10 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 22
+[26-Oct-2021 16:09:00 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 10
+[26-Oct-2021 16:09:00 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 11
+[26-Oct-2021 16:09:00 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 12
+[26-Oct-2021 16:09:00 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 14
+[26-Oct-2021 16:09:00 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 15
+[26-Oct-2021 16:09:00 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 16
+[26-Oct-2021 16:09:00 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 17
+[26-Oct-2021 16:09:00 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 19
+[26-Oct-2021 16:09:00 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 20
+[26-Oct-2021 16:09:00 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 22
+[26-Oct-2021 16:10:38 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 10
+[26-Oct-2021 16:10:38 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 11
+[26-Oct-2021 16:10:38 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 12
+[26-Oct-2021 16:10:38 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 14
+[26-Oct-2021 16:10:38 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 15
+[26-Oct-2021 16:10:38 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 16
+[26-Oct-2021 16:10:38 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 17
+[26-Oct-2021 16:10:38 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 19
+[26-Oct-2021 16:10:38 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 20
+[26-Oct-2021 16:10:38 America/Fortaleza] PHP Warning:  addcslashes() expects exactly 2 parameters, 1 given in /home1/socie783/public_html/inc/send-online.php on line 22

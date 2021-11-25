@@ -262,10 +262,20 @@ html {
 }
 
 /* video------------------------------------------------------------------- */
-video {
-	display: none;
+video.video-mobile {
+	display: flex;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	z-index: -5;
 	
   }
+
+  video.video-web  {
+	display: none;
+	
+}
 
 /* mkt--------------------------------------------------------------------- */
 .mkt{
@@ -332,7 +342,6 @@ video {
 	display: none;
 	
 }
-
 
 
 
@@ -602,7 +611,13 @@ video {
 	}
 
 	/* video------------------------------------------------------------------- */
-	video  {
+	video.video-mobile  {
+		display: none;
+	
+		
+	}
+
+	video.video-web  {
 		display: flex;
 		position: fixed;
 		right: 0;
@@ -610,7 +625,7 @@ video {
 		width: 100%;
 		z-index: -5;
 		
-	  }
+	}
 
 	/* mkt--------------------------------------------------------------------- */
 	.mkt{
